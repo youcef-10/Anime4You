@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="manga.css">
+        
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="manga.js" defer></script>
+
+     <title>Responsive Navigation Menu Bar</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen' ></i>
+            <span class="logo navLogo"><a href="#">Anime4you</a></span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">Anime4you</a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="#">الصفحة الرئيسية</a></li>
+                    <li><a href="#">قائمة الإنمي</a></li>
+                    <li><a href="#">أفلام الإنمي</a></li>
+                    <li><a href="#">المانجا</a></li>
+                    <li><a href="#">قائمة المانجا</a></li>
+                    <li><a href="#">مواعيد الحلقات</a></li>
+                    <li><a href="#">تواصل معنا</a></li>
+
+
+
+       
+                </ul>
+            </div>
+
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>
+
+                <div class="searchBox">
+                   <div class="searchToggle">
+                    <i class='bx bx-x cancel'></i>
+                    <i class='bx bx-search search'></i>
+                   </div>
+
+                    <div class="search-field">
+                        <input type="text" placeholder="Search...">
+                        <i class='bx bx-search'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- section -->
+    <section class="wrapper">
+        <i class="fa-solid fa-arrow-left button" id="prev"></i>
+         <!---->
+         <div class="image-container">
+            <div class="carousel">
+              <img src="image/Screenshot_1.png" alt="slide1" />
+              <img src="image/Screenshot_1.png" alt="slide2" />
+            </div>
+         <!---->
+         <i class="fa-solid fa-arrow-right button" id="next"></i>
+        </div>
+      </section>
+      <!-- section -->
+
+
+
+
+
+
+    <script src="manga.js"></script>
+</body>
+</html>

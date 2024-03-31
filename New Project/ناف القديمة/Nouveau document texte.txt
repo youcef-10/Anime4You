@@ -1,0 +1,49 @@
+Html :
+
+<!-- Navbar section -->
+    <nav>
+        <ul class="navbar">
+            <li><a href="contact.html">????? ????</a></li>
+            <li><a href="#">?????? ???????</a></li>
+            <li><a href="#">???????</a></li>
+            <li><a href="#">????? ??????</a></li>
+            <li><a href="AnimeList.html ">????? ??????</a></li>
+            <li><a href="Home.html">?????? ????????</a></li>
+        </ul>
+    </nav>
+    <hr color="#fff">
+
+ 
+    <!-- Navbar section -->
+
+Css:
+
+
+/*Navbar section */
+body{
+    margin: 0;
+}
+.navbar{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    text-align: center;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    display: block;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: black;
+    line-height: 70px;
+    transition-duration: .3s;
+}
+.navbar a:hover{
+    background-color: aliceblue;
+}
+/* Navbar section */

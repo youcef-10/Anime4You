@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    background-color: #0b0c2a;
+}
+.navbar{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    text-align: center;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    display: block;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: black;
+    line-height: 70px;
+    transition-duration: .3s;
+}
+.navbar a:hover{
+    background-color: rgb(245, 243, 243);
+}
+
+
+.navbar a:active{
+    background-color: rgb(139, 118, 197);
+}
+
+
+
+
+form{
+    margin: 0px 30px;
+    width: 300px;
+    padding: 0 20px;
+}
+
+form button{
+    width: 60px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+form input{
+    height: 35px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#Card{
+    border: #fff solid 5px;
+}
+
+#Card img{
+    width: 300px;
+}
+
+#Card div h3{
+    color: #fff;
+}
+
+#Card div{
+    float: right;
+}
+
+/* footer */
+
+.footer {
+    background-color: #000016;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: #3a6cf4;
+}
+
+.footer .social-icons a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+}
